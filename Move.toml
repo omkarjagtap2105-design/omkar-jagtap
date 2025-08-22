@@ -1,0 +1,15 @@
+[package]
+name = "Emergency-Response-Cordination"
+version = "1.0.0"
+authors = []
+
+ [addresses]
+ MyModule="f15608a241e1f4a7726eb3ed7e5341f351a032f0e57fc29498eb9b540a87c228"
+ [dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
